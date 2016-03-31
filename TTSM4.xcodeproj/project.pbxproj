@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F240EA0F1CAD209B00387278 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F240EA0E1CAD209B00387278 /* main.m */; };
+		F240EA121CAD209B00387278 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F240EA111CAD209B00387278 /* AppDelegate.m */; };
+		F240EA151CAD209B00387278 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F240EA141CAD209B00387278 /* ViewController.m */; };
+		F240EA181CAD209B00387278 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F240EA161CAD209B00387278 /* Main.storyboard */; };
+		F240EA1A1CAD209B00387278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F240EA191CAD209B00387278 /* Assets.xcassets */; };
+		F240EA1D1CAD209B00387278 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F240EA1B1CAD209B00387278 /* LaunchScreen.storyboard */; };
+		F240EA2B1CAD214400387278 /* padding.c in Sources */ = {isa = PBXBuildFile; fileRef = F240EA251CAD214400387278 /* padding.c */; };
+		F240EA2C1CAD214400387278 /* sm4.c in Sources */ = {isa = PBXBuildFile; fileRef = F240EA271CAD214400387278 /* sm4.c */; };
+		F240EA2D1CAD214400387278 /* TTAlgorithmSM4.m in Sources */ = {isa = PBXBuildFile; fileRef = F240EA2A1CAD214400387278 /* TTAlgorithmSM4.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F240EA0A1CAD209B00387278 /* TTSM4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTSM4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F240EA0E1CAD209B00387278 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F240EA101CAD209B00387278 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F240EA111CAD209B00387278 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F240EA131CAD209B00387278 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F240EA141CAD209B00387278 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F240EA171CAD209B00387278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F240EA191CAD209B00387278 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F240EA1C1CAD209B00387278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F240EA1E1CAD209B00387278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F240EA251CAD214400387278 /* padding.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = padding.c; sourceTree = "<group>"; };
+		F240EA261CAD214400387278 /* padding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = padding.h; sourceTree = "<group>"; };
+		F240EA271CAD214400387278 /* sm4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sm4.c; sourceTree = "<group>"; };
+		F240EA281CAD214400387278 /* sm4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sm4.h; sourceTree = "<group>"; };
+		F240EA291CAD214400387278 /* TTAlgorithmSM4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAlgorithmSM4.h; sourceTree = "<group>"; };
+		F240EA2A1CAD214400387278 /* TTAlgorithmSM4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAlgorithmSM4.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F240EA071CAD209B00387278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F240EA011CAD209B00387278 = {
+			isa = PBXGroup;
+			children = (
+				F240EA0C1CAD209B00387278 /* TTSM4 */,
+				F240EA0B1CAD209B00387278 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F240EA0B1CAD209B00387278 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F240EA0A1CAD209B00387278 /* TTSM4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F240EA0C1CAD209B00387278 /* TTSM4 */ = {
+			isa = PBXGroup;
+			children = (
+				F240EA241CAD214400387278 /* TTAlgorithmSM4 */,
+				F240EA101CAD209B00387278 /* AppDelegate.h */,
+				F240EA111CAD209B00387278 /* AppDelegate.m */,
+				F240EA131CAD209B00387278 /* ViewController.h */,
+				F240EA141CAD209B00387278 /* ViewController.m */,
+				F240EA161CAD209B00387278 /* Main.storyboard */,
+				F240EA191CAD209B00387278 /* Assets.xcassets */,
+				F240EA1B1CAD209B00387278 /* LaunchScreen.storyboard */,
+				F240EA1E1CAD209B00387278 /* Info.plist */,
+				F240EA0D1CAD209B00387278 /* Supporting Files */,
+			);
+			path = TTSM4;
+			sourceTree = "<group>";
+		};
+		F240EA0D1CAD209B00387278 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F240EA0E1CAD209B00387278 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F240EA241CAD214400387278 /* TTAlgorithmSM4 */ = {
+			isa = PBXGroup;
+			children = (
+				F240EA251CAD214400387278 /* padding.c */,
+				F240EA261CAD214400387278 /* padding.h */,
+				F240EA271CAD214400387278 /* sm4.c */,
+				F240EA281CAD214400387278 /* sm4.h */,
+				F240EA291CAD214400387278 /* TTAlgorithmSM4.h */,
+				F240EA2A1CAD214400387278 /* TTAlgorithmSM4.m */,
+			);
+			path = TTAlgorithmSM4;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F240EA091CAD209B00387278 /* TTSM4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F240EA211CAD209B00387278 /* Build configuration list for PBXNativeTarget "TTSM4" */;
+			buildPhases = (
+				F240EA061CAD209B00387278 /* Sources */,
+				F240EA071CAD209B00387278 /* Frameworks */,
+				F240EA081CAD209B00387278 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTSM4;
+			productName = TTSM4;
+			productReference = F240EA0A1CAD209B00387278 /* TTSM4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F240EA021CAD209B00387278 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王涛";
+				TargetAttributes = {
+					F240EA091CAD209B00387278 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F240EA051CAD209B00387278 /* Build configuration list for PBXProject "TTSM4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F240EA011CAD209B00387278;
+			productRefGroup = F240EA0B1CAD209B00387278 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F240EA091CAD209B00387278 /* TTSM4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F240EA081CAD209B00387278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F240EA1D1CAD209B00387278 /* LaunchScreen.storyboard in Resources */,
+				F240EA1A1CAD209B00387278 /* Assets.xcassets in Resources */,
+				F240EA181CAD209B00387278 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F240EA061CAD209B00387278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F240EA2D1CAD214400387278 /* TTAlgorithmSM4.m in Sources */,
+				F240EA151CAD209B00387278 /* ViewController.m in Sources */,
+				F240EA2B1CAD214400387278 /* padding.c in Sources */,
+				F240EA121CAD209B00387278 /* AppDelegate.m in Sources */,
+				F240EA2C1CAD214400387278 /* sm4.c in Sources */,
+				F240EA0F1CAD209B00387278 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F240EA161CAD209B00387278 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F240EA171CAD209B00387278 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F240EA1B1CAD209B00387278 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F240EA1C1CAD209B00387278 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F240EA1F1CAD209B00387278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F240EA201CAD209B00387278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F240EA221CAD209B00387278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTSM4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lno.TTwong.TTSM4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F240EA231CAD209B00387278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTSM4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lno.TTwong.TTSM4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F240EA051CAD209B00387278 /* Build configuration list for PBXProject "TTSM4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F240EA1F1CAD209B00387278 /* Debug */,
+				F240EA201CAD209B00387278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F240EA211CAD209B00387278 /* Build configuration list for PBXNativeTarget "TTSM4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F240EA221CAD209B00387278 /* Debug */,
+				F240EA231CAD209B00387278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F240EA021CAD209B00387278 /* Project object */;
+}
