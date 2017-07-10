@@ -6,10 +6,10 @@ pod 'TTSM4', '~> 1.0.0'
 
 # 用法
 1.CBC模式：需要密钥和初始化向量来初始化，且长度都为16字节
-    //密钥
-    NSString *secretKey = @"JeF8U9wHFOMfs2Y8";
-    //初始化向量
-    NSString *iv = @"UISwD9fW6cFh9SNS";
+    
+    NSString *secretKey = @"JeF8U9wHFOMfs2Y8";//密钥
+    
+    NSString *iv = @"UISwD9fW6cFh9SNS";//初始化向量
     
     TTAlgorithmSM4 *sm4 = [TTAlgorithmSM4 cbcSM4WithKey:secretKey iv:iv];
     
@@ -31,8 +31,8 @@ pod 'TTSM4', '~> 1.0.0'
     NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:msgdata options:NSJSONReadingMutableLeaves error:&error];
 
 2.ECB模式：需要密钥来初始化，密钥长度为16字节
-	//密钥
-    NSString *secretKey = @"JeF8U9wHFOMfs2Y8";
+
+    NSString *secretKey = @"JeF8U9wHFOMfs2Y8";//密钥
     
     TTAlgorithmSM4 *sm4 = [TTAlgorithmSM4 ecbSM4WithKey:secretKey];
     
